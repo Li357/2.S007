@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-float computeNormVal(float sensorVal, float minVal, float maxVal) {
+float normalize(float sensorVal, float minVal, float maxVal) {
   return constrain((sensorVal - minVal) / (maxVal - minVal), 0, 1);
 }
 

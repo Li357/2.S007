@@ -7,6 +7,7 @@ struct PIDConfig {
   float kd;
   float deltaT;
   float setpoint;
+  float tolerance;
 };
 
 struct PIDState {
