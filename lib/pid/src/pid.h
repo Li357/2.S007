@@ -11,7 +11,6 @@ struct PIDConfig {
 };
 
 struct PIDState {
-  float p = 0.0;
   float i = 0.0;
   float d = 0.0;
   float error = 0.0;

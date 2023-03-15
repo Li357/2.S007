@@ -11,17 +11,17 @@
 
 #define PIN_LINE_LED 13
 
-#define IR1_MAX 980
-#define IR2_MAX 980
-#define IR3_MAX 980
-#define IR4_MAX 980
-#define IR5_MAX 980
+#define IR1_MAX 975
+#define IR2_MAX 975
+#define IR3_MAX 975
+#define IR4_MAX 975
+#define IR5_MAX 975
 
-#define IR1_MIN 602
-#define IR2_MIN 658
-#define IR3_MIN 647
-#define IR4_MIN 580
-#define IR5_MIN 571
+#define IR1_MIN 387
+#define IR2_MIN 412
+#define IR3_MIN 412
+#define IR4_MIN 368
+#define IR5_MIN 379
 
 #define MILLISEC_TO_SEC 1/1000
 
