@@ -7,5 +7,4 @@ float normalize(float sensorVal, float minVal, float maxVal) {
   return constrain((sensorVal - minVal) / (maxVal - minVal), 0, 1);
 }
 
-
 #endif
